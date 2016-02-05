@@ -1,0 +1,36 @@
+{
+  "name": "angular2-ajax",
+  "version": "1.0.0",
+  "description": "This is the code for [Auth0's tutorial on Angular 2 Http](). The tutorial covers how to make `GET` and `POST` requests, and how to set some options such as modified headers.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "es6-promise": "^3.0.2",
+    "del": "^1.2.1",
+    "connect": "^3.4.1",
+    "rxjs": "^5.0.0-beta.0",
+    "angular2": "^2.0.0-beta.0",
+    "es6-shim": "^0.33.13",
+    "gulp": "^3.9.0",
+    "systemjs": "^0.19.6",
+    "gulp-typescript": "^2.10.0",
+    "open": "^0.0.5",
+    "reflect-metadata": "^0.1.2",
+    "zone.js": "^0.5.10",
+    "serve-static": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharatrajan/Angular2-AJAX-weather.git"
+  },
+  "author": "Bharat Rajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharatrajan/Angular2-AJAX-weather/issues"
+  },
+  "homepage": "https://github.com/bharatrajan/Angular2-AJAX-weather#readme"
+}
