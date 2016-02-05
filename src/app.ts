@@ -74,7 +74,7 @@ export class App {
                 this.location = this.result.query.results.channel.item.title;
                 for(var elem of this.result.query.results.channel.item.forecast) {
                     this.fcList.push('Date : '+ elem.date + ',     Condition : '+ elem.text);
-                    console.log('Date : '+ elem.date + ',     Condition : '+ elem.text);
+                    console.log(elem.date + ' : '+ elem.text);
                 }
               }
             }
