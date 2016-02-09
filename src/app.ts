@@ -62,7 +62,7 @@ export class App {
     if(zip.value){
       zip = zip.value;
     }
-    this.http.get('http://query.yahooapis.com/v1/public/yql?q=select item from weather.forecast where location='+  zip  +'&format=json')
+    this.http.get('https://query.yahooapis.com/v1/public/yql?q=select item from weather.forecast where location='+  zip  +'&format=json')
       .subscribe(
         data => this.result = JSON.parse(data.text()),
         err => this.logError(err.text()),
